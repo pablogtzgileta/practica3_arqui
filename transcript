@@ -1,0 +1,898 @@
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of HazardUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 22 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 16:15:04 on May 14,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.HazardUnit
+# Loading work.Control
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.ORGate
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ForwardingUnit
+# Loading work.DataMemory
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Too few port connections. Expected 10, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/Hazard File: C:/MIPSProjects/MIPSProcessor/Practica3/HazardUnit.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'RegWrite_wire_EX'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'RegWrite_wire_MEM'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'WriteRegister_wire'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'WriteRegister_wire_MEM'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(295): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(329): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUXControlHDU File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(583): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(583): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(627): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(667): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# WARNING: No extended dataflow license exists
+add wave sim:/MIPS_Processor_TB/*
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[18]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[17]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[16]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[15]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[14]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[13]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[12]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[11]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[10]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[9]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[8]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[7]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[6]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[5]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[4]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[3]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[2]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[1]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/Memory/ram[0]
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Too few port connections. Expected 10, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/Hazard File: C:/MIPSProjects/MIPSProcessor/Practica3/HazardUnit.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'RegWrite_wire_EX'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'RegWrite_wire_MEM'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'WriteRegister_wire'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'WriteRegister_wire_MEM'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(295): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(329): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUXControlHDU File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(583): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(583): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(627): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(667): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Too few port connections. Expected 10, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/Hazard File: C:/MIPSProjects/MIPSProcessor/Practica3/HazardUnit.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'RegWrite_wire_EX'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'RegWrite_wire_MEM'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'WriteRegister_wire'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(222): [TFMPC] - Missing connection for port 'WriteRegister_wire_MEM'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(295): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(329): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUXControlHDU File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(583): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(583): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(627): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(667): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 21 compiles, 1 failed with no errors.
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# Compile of Hazard.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.Hazard
+# Loading work.Control
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ForwardingUnit
+# Loading work.DataMemory
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Too few port connections. Expected 10, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/HazardUnit File: C:/MIPSProjects/MIPSProcessor/Practica3/Hazard.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'RegWrite_wire_EX'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'RegWrite_wire_MEM'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'WriteRegister_wire'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'WriteRegister_wire_MEM'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(293): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(327): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUXControlHDU File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(581): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(581): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(625): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(665): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Too few port connections. Expected 10, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/HazardUnit File: C:/MIPSProjects/MIPSProcessor/Practica3/Hazard.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'RegWrite_wire_EX'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'RegWrite_wire_MEM'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'WriteRegister_wire'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'WriteRegister_wire_MEM'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(293): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(327): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUXControlHDU File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(581): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(581): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(625): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(665): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Too few port connections. Expected 10, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/HazardUnit File: C:/MIPSProjects/MIPSProcessor/Practica3/Hazard.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'RegWrite_wire_EX'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'RegWrite_wire_MEM'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'WriteRegister_wire'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'WriteRegister_wire_MEM'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(293): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(327): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUXControlHDU File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(581): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(581): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(625): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(665): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Too few port connections. Expected 10, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/HazardUnit File: C:/MIPSProjects/MIPSProcessor/Practica3/Hazard.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'RegWrite_wire_EX'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'RegWrite_wire_MEM'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'WriteRegister_wire'.
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(219): [TFMPC] - Missing connection for port 'WriteRegister_wire_MEM'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(293): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(327): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUXControlHDU File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(581): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(581): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(625): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(665): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# Compile of Hazard.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.Hazard
+# Loading work.Control
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ForwardingUnit
+# Loading work.DataMemory
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(292): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(326): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUXControlHDU File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(580): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(580): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(624): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(664): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# Compile of Hazard.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Hazard
+# Loading work.ForwardingUnit
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(264): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(298): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(553): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(553): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(596): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(635): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[18]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[17]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[16]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[15]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[14]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[13]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[12]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[11]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[10]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[9]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[8]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[7]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[6]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[5]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[4]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[3]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[2]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[1]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[0]'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/MIPS_Processor_TB/DUV/Memory/ram[0]'. 
+run
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[18]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[17]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[16]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[15]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[14]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[13]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[12]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[11]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[10]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[9]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[8]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[7]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[6]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[5]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[4]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[3]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[2]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[1]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM_Memory/ram[0]
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(264): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(298): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(553): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(553): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(596): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(635): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(264): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(298): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(553): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(553): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(596): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(635): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(264): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(298): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(553): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(553): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(596): [PCDPC] - Port size (170) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(635): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+# Error opening C:/MIPSProjects/MIPSProcessor/Practica3/[PCDPC] - Port size (104) does not match connection size 
+# Path name 'C:/MIPSProjects/MIPSProcessor/Practica3/[PCDPC] - Port size (104) does not match connection size ' doesn't exist.
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# Compile of Hazard.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Hazard
+# Loading work.ForwardingUnit
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(263): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(297): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(552): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(552): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(595): [PCDPC] - Port size (138) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(641): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# Compile of Hazard.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Hazard
+# Loading work.ForwardingUnit
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(263): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(297): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(552): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(552): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(595): [PCDPC] - Port size (138) does not match connection size (106) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(595): [PCDPC] - Port size (138) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(639): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# Compile of Hazard.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Hazard
+# Loading work.ForwardingUnit
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(263): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(297): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(552): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(552): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(595): [PCDPC] - Port size (138) does not match connection size (106) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(595): [PCDPC] - Port size (138) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(639): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+run
+restart
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(263): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(297): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(552): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(552): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(595): [PCDPC] - Port size (138) does not match connection size (106) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(595): [PCDPC] - Port size (138) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(639): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# Compile of Hazard.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.SignExtend
+# Loading work.Adder32bits
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Hazard
+# Loading work.ForwardingUnit
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(310): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(406): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(440): [PCDPC] - Port size (3) does not match connection size (4) for port 'ALUOperation'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/ALUControl.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ArithmeticLogicUnitControl File: C:/MIPSProjects/MIPSProcessor/Practica3/ALUControl.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(542): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(542): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(585): [PCDPC] - Port size (138) does not match connection size (106) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(585): [PCDPC] - Port size (138) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(619): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+run
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+restart
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.SignExtend
+# Loading work.Adder32bits
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Hazard
+# Loading work.ForwardingUnit
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(310): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(406): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(542): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(542): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(585): [PCDPC] - Port size (138) does not match connection size (106) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(585): [PCDPC] - Port size (138) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(619): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run
+# Compile of Hazard.v was successful.
+# 22 compiles, 0 failed with no errors.
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of Equals.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of Pipeline.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# Compile of Hazard.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Equals
+# Loading work.ANDGate
+# Loading work.SignExtend
+# Loading work.Adder32bits
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Hazard
+# Loading work.ForwardingUnit
+# Loading work.Pipeline
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(310): [PCDPC] - Port size (10) does not match connection size (11) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_ForControls File: C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(406): [PCDPC] - Port size (32) does not match connection size (34) for port 'Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/PC_Plus_Immediate File: C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(542): [PCDPC] - Port size (160) does not match connection size (159) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(542): [PCDPC] - Port size (160) does not match connection size (194) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ID_EX_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(585): [PCDPC] - Port size (138) does not match connection size (106) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(585): [PCDPC] - Port size (138) does not match connection size (205) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/EX_MEM_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v(619): [PCDPC] - Port size (104) does not match connection size (136) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MEM_WB_Pipeline File: C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
+run

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd14cca8-a404-4579-935d-e399dc994144" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Practica3" />
+  </component>
+  <component name="ProjectId" id="1bkWhI731Ak6kMmazUkJdUgYiML" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestGustavo/MIPS-Processor" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd14cca8-a404-4579-935d-e399dc994144" name="Default Changelist" comment="" />
+      <created>1589176689235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589176689235</updated>
+      <workItem from="1589176690444" duration="10814000" />
+      <workItem from="1589251269621" duration="2376000" />
+      <workItem from="1589292792461" duration="614000" />
+      <workItem from="1589490113986" duration="18740000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1528" y="213" key="FileChooserDialogImpl" timestamp="1589511900901">
+      <screen x="-1920" y="-65" width="1920" height="1040" />
+    </state>
+    <state x="-1528" y="213" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-65.1920.1040@-1920.-65.1920.1040" timestamp="1589511900901" />
+    <state x="-1657" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589517835554">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1657" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.-65.1920.1040@-1920.-65.1920.1040" timestamp="1589490630406" />
+    <state x="-1657" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589517835554" />
+    <state x="263" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589251364182" />
+    <state x="-1746" y="190" width="611" height="536" key="find.popup" timestamp="1589510441767">
+      <screen x="-1920" y="-65" width="1920" height="1040" />
+    </state>
+    <state x="-1746" y="190" width="611" height="536" key="find.popup/0.0.1920.1040/-1920.-65.1920.1040@-1920.-65.1920.1040" timestamp="1589510441767" />
+    <state x="-1746" y="255" width="611" height="536" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589179909606" />
+    <state x="-1784" y="244" key="run.anything.popup" timestamp="1589180082161">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1784" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589180082161" />
+    <state x="-1777" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1589520657364">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1777" y="165" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-65.1920.1040@-1920.-65.1920.1040" timestamp="1589509993257" />
+    <state x="-1777" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589520657364" />
+  </component>
+</project>
