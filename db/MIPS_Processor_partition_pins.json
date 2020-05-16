@@ -132,6 +132,126 @@
 					"strict" : false
 				},
 				{
+					"name" : "PortOut[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[16]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[17]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[18]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[19]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[20]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[21]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[22]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[23]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[24]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[25]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[26]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[27]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[28]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[29]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[30]",
+					"strict" : false
+				},
+				{
+					"name" : "PortOut[31]",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
 					"strict" : false
 				},

@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/MIPSProjects/MIPSProcessor/Practica3
 vAdder32bits
-Z1 !s110 1589521621
+Z1 !s110 1589589520
 !i10b 1
 !s100 ]H0^NRAm[`J07LMS2@]Pb2
 IQ>LTY8_nazkX633NQU=Mz0
@@ -23,7 +23,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1589521621.000000
+Z6 !s108 1589589520.000000
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/Adder32bits.v|
 !i113 1
@@ -31,7 +31,7 @@ Z7 o-work work
 Z8 tCvgOpt 0
 n@adder32bits
 vALU
-R1
+Z9 !s110 1589589521
 !i10b 1
 !s100 `hak7f:=]AQQdAn0`CMVW3
 IYGY]I]EOJnF8[BD;XFE:B3
@@ -53,7 +53,7 @@ R7
 R8
 n@a@l@u
 vALUControl
-Z9 !s110 1589521622
+R9
 !i10b 1
 !s100 ^V_=7BKS6Hi;P0cWbKdk<0
 IVFihU4g<N4C2nUSL0;nEF0
@@ -67,7 +67,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1589521622.000000
+Z11 !s108 1589589521.000000
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/ALUControl.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/ALUControl.v|
 !i113 1
@@ -97,29 +97,29 @@ R7
 R8
 n@a@n@d@gate
 vControl
-Z12 !s110 1589521623
+R9
 !i10b 1
 !s100 `T2i8]Sh;3F0EG>`;7jAI0
-IEK9nn0C7=4A5fD_m0Q>LC2
+I[_:>LcLB4TI@]9FimNI;l3
 R2
 R0
-Z13 w1589520302
-8C:/MIPSProjects/MIPSProcessor/Practica3/Control.v
-FC:/MIPSProjects/MIPSProcessor/Practica3/Control.v
-Z14 L0 14
+Z12 w1589520302
+8C:\MIPSProjects\MIPSProcessor\Practica3\Control.v
+FC:\MIPSProjects\MIPSProcessor\Practica3\Control.v
+Z13 L0 14
 R5
 r1
 !s85 0
 31
 R11
-!s107 C:/MIPSProjects/MIPSProcessor/Practica3/Control.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/Control.v|
+!s107 C:\MIPSProjects\MIPSProcessor\Practica3\Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\MIPSProjects\MIPSProcessor\Practica3\Control.v|
 !i113 1
 R7
 R8
 n@control
 vDataMemory
-R12
+R9
 !i10b 1
 !s100 @OPaVYHbgG?72[TazmZN01
 I3Yl7DD4F=Nm438l^eOaVb0
@@ -133,7 +133,7 @@ R5
 r1
 !s85 0
 31
-Z15 !s108 1589521623.000000
+R11
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/DataMemory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/DataMemory.v|
 !i113 1
@@ -141,7 +141,7 @@ R7
 R8
 n@data@memory
 vDecoderRegisterFile
-R12
+R9
 !i10b 1
 !s100 F1VSWfob<5:Z_;L=c07hJ3
 IAHz<[gC>67W`F9k;Vj3Dh3
@@ -150,12 +150,12 @@ R0
 R3
 8C:/MIPSProjects/MIPSProcessor/Practica3/DecoderRegisterFile.v
 FC:/MIPSProjects/MIPSProcessor/Practica3/DecoderRegisterFile.v
-Z16 L0 12
+Z14 L0 12
 R5
 r1
 !s85 0
 31
-R15
+R11
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/DecoderRegisterFile.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/DecoderRegisterFile.v|
 !i113 1
@@ -163,7 +163,7 @@ R7
 R8
 n@decoder@register@file
 vEquals
-Z17 !s110 1589521624
+Z15 !s110 1589589522
 !i10b 1
 !s100 FhFXXWk7@5Z`8_f=[;F[c2
 I7bn;h`8Z`W0:ZIW0GGFP00
@@ -177,7 +177,7 @@ R5
 r1
 !s85 0
 31
-Z18 !s108 1589521624.000000
+R11
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/Equals.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/Equals.v|
 !i113 1
@@ -185,7 +185,7 @@ R7
 R8
 n@equals
 vForwardingUnit
-R17
+R15
 !i10b 1
 !s100 UhJHKI9SNl;;Qc_DCVfKa2
 IN_nf`9BC58Uz9XHzY]1:j2
@@ -199,7 +199,7 @@ R5
 r1
 !s85 0
 31
-R18
+Z16 !s108 1589589522.000000
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/ForwardingUnit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/ForwardingUnit.v|
 !i113 1
@@ -207,13 +207,13 @@ R7
 R8
 n@forwarding@unit
 vHazard
-Z19 !s110 1589521629
+Z17 !s110 1589589524
 !i10b 1
 !s100 HhSIB69ZlfWDh]26B64=g2
 I6PMLnXzMX?`APH4deh?TQ1
 R2
 R0
-R13
+R12
 8C:/MIPSProjects/MIPSProcessor/Practica3/Hazard.v
 FC:/MIPSProjects/MIPSProcessor/Practica3/Hazard.v
 L0 1
@@ -221,7 +221,7 @@ R5
 r1
 !s85 0
 31
-Z20 !s108 1589521629.000000
+Z18 !s108 1589589524.000000
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/Hazard.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/Hazard.v|
 !i113 1
@@ -251,13 +251,13 @@ R7
 R8
 n@hazard@unit
 vMIPS_Processor
-Z21 !s110 1589521625
+R15
 !i10b 1
 !s100 DOD?VCH]JYU6hZF^zhNDV0
 I^;[LkEgFmUfV@:OijzRB;3
 R2
 R0
-R13
+R12
 8C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
 FC:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v
 L0 11
@@ -265,7 +265,7 @@ R5
 r1
 !s85 0
 31
-Z22 !s108 1589521625.000000
+R16
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor.v|
 !i113 1
@@ -273,7 +273,7 @@ R7
 R8
 n@m@i@p@s_@processor
 vMIPS_Processor_TB
-R21
+R15
 !i10b 1
 !s100 93:RClE5YGZRK?HHmQNoS0
 IRd2g0Jmg5[kQ>X;OBfDI]3
@@ -287,7 +287,7 @@ R5
 r1
 !s85 0
 31
-R22
+R16
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/MIPS_Processor_TB.v|
 !i113 1
@@ -295,7 +295,7 @@ R7
 R8
 n@m@i@p@s_@processor_@t@b
 vMultiplexer2to1
-Z23 !s110 1589521626
+Z19 !s110 1589589523
 !i10b 1
 !s100 F48Y>?kNP3VGSJ<6PZ3Z<0
 IHRD5k2IT<CiDJf;;b[]iK0
@@ -309,7 +309,7 @@ R5
 r1
 !s85 0
 31
-Z24 !s108 1589521626.000000
+Z20 !s108 1589589523.000000
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/Multiplexer2to1.v|
 !i113 1
@@ -317,23 +317,23 @@ R7
 R8
 n@multiplexer2to1
 vMUXRegisterFile
-R23
+R19
 !i10b 1
 !s100 <^j`[[]Fjj[]CWW`3JSFT0
-I6FN57JzBZNFSGC]Igz[GT3
+I:6ZF[<IIV`zTD26eQP`^Q2
 R2
 R0
 R3
-8C:/MIPSProjects/MIPSProcessor/Practica3/MUXRegisterFile.v
-FC:/MIPSProjects/MIPSProcessor/Practica3/MUXRegisterFile.v
+8C:\MIPSProjects\MIPSProcessor\Practica3\MUXRegisterFile.v
+FC:\MIPSProjects\MIPSProcessor\Practica3\MUXRegisterFile.v
 L0 2
 R5
 r1
 !s85 0
 31
-R24
-!s107 C:/MIPSProjects/MIPSProcessor/Practica3/MUXRegisterFile.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/MUXRegisterFile.v|
+R20
+!s107 C:\MIPSProjects\MIPSProcessor\Practica3\MUXRegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\MIPSProjects\MIPSProcessor\Practica3\MUXRegisterFile.v|
 !i113 1
 R7
 R8
@@ -345,7 +345,7 @@ vORGate
 IdCQ4@C^gjikmEUCm[cl?B1
 R2
 R0
-Z25 w1589176863
+Z21 w1589176863
 8C:/MIPSProjects/MIPSProcessor/Practica3/ORGate.v
 FC:/MIPSProjects/MIPSProcessor/Practica3/ORGate.v
 L0 1
@@ -361,7 +361,7 @@ R7
 R8
 n@o@r@gate
 vPC_Register
-Z26 !s110 1589521627
+R19
 !i10b 1
 !s100 giz9nc?LafDL6oCHiid[c1
 I;76?PBjDk<@KghNdg9`Z[2
@@ -375,7 +375,7 @@ R5
 r1
 !s85 0
 31
-R24
+R20
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/PC_Register.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/PC_Register.v|
 !i113 1
@@ -383,13 +383,13 @@ R7
 R8
 n@p@c_@register
 vPipeline
-R26
+R19
 !i10b 1
 !s100 DWJ75naGY6z`LOzdAMYm=0
 IhgXFGBfVAfDFk2X7=c3Y_3
 R2
 R0
-R25
+R21
 8C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
 FC:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v
 L0 1
@@ -397,7 +397,7 @@ R5
 r1
 !s85 0
 31
-Z27 !s108 1589521627.000000
+R20
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/Pipeline.v|
 !i113 1
@@ -405,29 +405,29 @@ R7
 R8
 n@pipeline
 vProgramMemory
-R26
+R19
 !i10b 1
-!s100 kcVOMzlMJ<P`:cHRaXzC`2
-Icnnj5SRO9;c18AI]GkdV50
+!s100 j@]KX`W5hQ`1nYPm2UkUE1
+I1J^64i_C7>Dl_K2D>bj>I3
 R2
 R0
-w1589178054
-8C:/MIPSProjects/MIPSProcessor/Practica3/ProgramMemory.v
-FC:/MIPSProjects/MIPSProcessor/Practica3/ProgramMemory.v
+w1589589515
+8C:\MIPSProjects\MIPSProcessor\Practica3\ProgramMemory.v
+FC:\MIPSProjects\MIPSProcessor\Practica3\ProgramMemory.v
 R10
 R5
 r1
 !s85 0
 31
-R27
-!s107 C:/MIPSProjects/MIPSProcessor/Practica3/ProgramMemory.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/ProgramMemory.v|
+R20
+!s107 C:\MIPSProjects\MIPSProcessor\Practica3\ProgramMemory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\MIPSProjects\MIPSProcessor\Practica3\ProgramMemory.v|
 !i113 1
 R7
 R8
 n@program@memory
 vRegister
-Z28 !s110 1589521628
+R19
 !i10b 1
 !s100 egCIUc]UZ1M2z58M]>B@S3
 I`PO?@XXAECZa=QmGkJ<080
@@ -436,12 +436,12 @@ R0
 R3
 8C:/MIPSProjects/MIPSProcessor/Practica3/Register.v
 FC:/MIPSProjects/MIPSProcessor/Practica3/Register.v
-R16
+R14
 R5
 r1
 !s85 0
 31
-Z29 !s108 1589521628.000000
+R20
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/Register.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/Register.v|
 !i113 1
@@ -449,7 +449,7 @@ R7
 R8
 n@register
 vRegisterFile
-R28
+R19
 !i10b 1
 !s100 iRCaBoP=AVEo`Pldi`c<00
 IX79@Rg[6L>a^mOH>UcbNM2
@@ -463,7 +463,7 @@ R5
 r1
 !s85 0
 31
-R29
+R20
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/RegisterFile.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/RegisterFile.v|
 !i113 1
@@ -471,7 +471,7 @@ R7
 R8
 n@register@file
 vShiftLeft2
-R19
+R17
 !i10b 1
 !s100 Hi:hlBR22G;<919E5iIcC3
 IVf]]Ki@Ej5nObhfRQF=m42
@@ -480,12 +480,12 @@ R0
 R3
 8C:/MIPSProjects/MIPSProcessor/Practica3/ShiftLeft2.v
 FC:/MIPSProjects/MIPSProcessor/Practica3/ShiftLeft2.v
-R16
+R14
 R5
 r1
 !s85 0
 31
-R20
+R18
 !s107 C:/MIPSProjects/MIPSProcessor/Practica3/ShiftLeft2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/MIPSProjects/MIPSProcessor/Practica3/ShiftLeft2.v|
 !i113 1
@@ -502,7 +502,7 @@ R0
 R3
 8C:/MIPSProjects/MIPSProcessor/Practica3/SignExtend.v
 FC:/MIPSProjects/MIPSProcessor/Practica3/SignExtend.v
-R14
+R13
 R5
 r1
 !s85 0

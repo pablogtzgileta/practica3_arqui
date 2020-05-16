@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd14cca8-a404-4579-935d-e399dc994144" name="Default Changelist" comment="" />
+    <list default="true" id="dd14cca8-a404-4579-935d-e399dc994144" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIPS_Processor.cr.mti" beforeDir="false" afterPath="$PROJECT_DIR$/MIPS_Processor.cr.mti" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIPS_Processor.mpf" beforeDir="false" afterPath="$PROJECT_DIR$/MIPS_Processor.mpf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIPS_Processor.qsf" beforeDir="false" afterPath="$PROJECT_DIR$/MIPS_Processor.qsf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIPS_Processor.qws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramMemory.v" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramMemory.v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(0).cnf.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(0).cnf.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(0).cnf.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(0).cnf.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(1).cnf.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(1).cnf.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(1).cnf.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(1).cnf.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(12).cnf.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(12).cnf.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(12).cnf.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(12).cnf.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(17).cnf.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(17).cnf.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(17).cnf.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(17).cnf.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(18).cnf.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(18).cnf.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(18).cnf.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(18).cnf.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(19).cnf.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(19).cnf.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(19).cnf.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(19).cnf.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(3).cnf.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(3).cnf.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(3).cnf.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(3).cnf.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(6).cnf.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(6).cnf.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(6).cnf.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(6).cnf.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(7).cnf.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(7).cnf.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.(7).cnf.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.(7).cnf.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.cmp.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.cmp.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.db_info" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.db_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.hier_info" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.hier_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.hif" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.hif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.lpc.html" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.lpc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.lpc.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.lpc.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.lpc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.lpc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.map.bpm" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.map.bpm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.map.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.map.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.map.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.map.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.map.kpt" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.map.kpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.map.qmsg" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.map.qmsg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.map.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.map.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.map_bb.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.map_bb.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.map_bb.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.map_bb.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.pre_map.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.pre_map.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.ram0_ProgramMemory_2092b677.hdl.mif" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.ram0_ProgramMemory_2092b677.hdl.mif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.root_partition.map.reg_db.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.root_partition.map.reg_db.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.rtlv.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.rtlv.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.rtlv_sg.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.rtlv_sg.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.rtlv_sg_swap.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.rtlv_sg_swap.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.smart_action.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.smart_action.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.tis_db_list.ddb" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.tis_db_list.ddb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor.tmw_info" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor.tmw_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/MIPS_Processor_partition_pins.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/MIPS_Processor_partition_pins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.dpi" beforeDir="false" afterPath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.dpi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.hbdb.cdb" beforeDir="false" afterPath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.hbdb.cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.hbdb.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.hbdb.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.hdb" beforeDir="false" afterPath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.hdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.kpt" beforeDir="false" afterPath="$PROJECT_DIR$/incremental_db/compiled_partitions/MIPS_Processor.root_partition.map.kpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_files/MIPS_Processor.done" beforeDir="false" afterPath="$PROJECT_DIR$/output_files/MIPS_Processor.done" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_files/MIPS_Processor.flow.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/output_files/MIPS_Processor.flow.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_files/MIPS_Processor.map.rpt" beforeDir="false" afterPath="$PROJECT_DIR$/output_files/MIPS_Processor.map.rpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_files/MIPS_Processor.map.summary" beforeDir="false" afterPath="$PROJECT_DIR$/output_files/MIPS_Processor.map.summary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transcript" beforeDir="false" afterPath="$PROJECT_DIR$/transcript" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vsim.wlf" beforeDir="false" afterPath="$PROJECT_DIR$/vsim.wlf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/_info" beforeDir="false" afterPath="$PROJECT_DIR$/work/_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/_lib.qdb" beforeDir="false" afterPath="$PROJECT_DIR$/work/_lib.qdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/_lib1_40.qdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/_lib1_40.qpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/_lib1_40.qtl" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +77,11 @@
   <component name="FavoritesManager">
     <favorites_list name="Practica3" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bkWhI731Ak6kMmazUkJdUgYiML" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,7 +105,10 @@
       <workItem from="1589176690444" duration="10814000" />
       <workItem from="1589251269621" duration="2376000" />
       <workItem from="1589292792461" duration="614000" />
-      <workItem from="1589490113986" duration="18740000" />
+      <workItem from="1589490113986" duration="19972000" />
+      <workItem from="1589552442001" duration="2077000" />
+      <workItem from="1589556424780" duration="616000" />
+      <workItem from="1589581668651" duration="3764000" />
     </task>
     <servers />
   </component>
@@ -52,19 +126,20 @@
     <state x="-1657" y="73" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.-65.1920.1040@-1920.-65.1920.1040" timestamp="1589490630406" />
     <state x="-1657" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589517835554" />
     <state x="263" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589251364182" />
-    <state x="-1746" y="190" width="611" height="536" key="find.popup" timestamp="1589510441767">
+    <state x="-1746" y="190" width="611" height="536" key="find.popup" timestamp="1589554232041">
       <screen x="-1920" y="-65" width="1920" height="1040" />
     </state>
-    <state x="-1746" y="190" width="611" height="536" key="find.popup/0.0.1920.1040/-1920.-65.1920.1040@-1920.-65.1920.1040" timestamp="1589510441767" />
+    <state x="-1746" y="190" width="611" height="536" key="find.popup/0.0.1920.1040/-1920.-65.1920.1040@-1920.-65.1920.1040" timestamp="1589554232041" />
     <state x="-1746" y="255" width="611" height="536" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589179909606" />
     <state x="-1784" y="244" key="run.anything.popup" timestamp="1589180082161">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1784" y="244" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589180082161" />
-    <state x="-1777" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1589520657364">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1589582528134">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1777" y="165" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-65.1920.1040@-1920.-65.1920.1040" timestamp="1589509993257" />
+    <state x="-1777" y="165" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-65.1920.1040@-1920.-65.1920.1040" timestamp="1589554221577" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1589582528134" />
     <state x="-1777" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589520657364" />
   </component>
 </project>
